@@ -9,9 +9,13 @@ import UIKit
 
 class SecondViewController: UIViewController {
 
+    @IBOutlet weak var dispName: UILabel!
+    
+    var myName = ""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        dispName.text = "Hello \(myName)!"
         // Do any additional setup after loading the view.
     }
     

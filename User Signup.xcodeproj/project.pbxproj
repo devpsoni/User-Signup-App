@@ -13,6 +13,7 @@
 		26FE89C52B7F8B83003ECEFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26FE89C32B7F8B83003ECEFD /* Main.storyboard */; };
 		26FE89C72B7F8B84003ECEFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26FE89C62B7F8B84003ECEFD /* Assets.xcassets */; };
 		26FE89CA2B7F8B84003ECEFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26FE89C82B7F8B84003ECEFD /* LaunchScreen.storyboard */; };
+		26FE89D22B7F9896003ECEFD /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FE89D12B7F9896003ECEFD /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		26FE89C62B7F8B84003ECEFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		26FE89C92B7F8B84003ECEFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		26FE89CB2B7F8B84003ECEFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26FE89D12B7F9896003ECEFD /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				26FE89BF2B7F8B83003ECEFD /* SceneDelegate.swift */,
 				26FE89C12B7F8B83003ECEFD /* ViewController.swift */,
 				26FE89C32B7F8B83003ECEFD /* Main.storyboard */,
+				26FE89D12B7F9896003ECEFD /* SecondViewController.swift */,
 				26FE89C62B7F8B84003ECEFD /* Assets.xcassets */,
 				26FE89C82B7F8B84003ECEFD /* LaunchScreen.storyboard */,
 				26FE89CB2B7F8B84003ECEFD /* Info.plist */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26FE89D22B7F9896003ECEFD /* SecondViewController.swift in Sources */,
 				26FE89C22B7F8B83003ECEFD /* ViewController.swift in Sources */,
 				26FE89BE2B7F8B83003ECEFD /* AppDelegate.swift in Sources */,
 				26FE89C02B7F8B83003ECEFD /* SceneDelegate.swift in Sources */,
